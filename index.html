@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <!-- TODO: Replace this with your title -->
+    <title>Meet Taegan</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #283618;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero-target"><img id="logo" src="img/header/pinetree.png" alt="pinetree brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#mission-target">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-target">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#inspiration-target">Inspiration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-target">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Hero section -->
+  <div id="hero-target" class="target"></div>
+	<section id="hero-section">
+    <div id="hero-container" class="container">
+      <img id="headshot" src="img/header/headshot.jpg" alt="Picture of Taegan Maishman">
+      <h1 id="name" class="display-4">Taegan Maishman</h1>
+      <h5 id="tagline" class="lead">Happy to teach, ready to learn</h5>
+    </div>
+	</section>
+  
+	<!-- Mission/Meet-me section -->
+  <div id="mission-target" class="target"></div>
+  <section id="mission-section">
+    <div id="mission-container" class="container ms-auto">
+      <div class="row g-2">
+        <div class="col p-2">
+          <h5 id="mission-title" class="display-5 text-center">My Mission</h5>
+        </div>
+      </div>
+      <div class="row g-2 text-wrap align-middle">
+        <div id="mission-image-col" class="col-12 col-md-6 p-2">
+          <img id="mission-image" src="img/mission/mission.jpg" alt="mission image">
+        </div>
+        <div id="mission-text-col" class="col-12 col-md-6 ms-auto p-2">
+          <p id="mission-paragraph"><b><span class="text-center" id="mission-quote">"In learning you will teach, and in teaching you will learn." - Phil Collins</span></b><br><br>Since I can remember I have been a student, as well as a teacher. Helping my peers with science, math, coding, and english, teaching ballroom dance to my students, and learning more about each subject as I taught someone else have been some of the most memorable and thrilling experiences for me. My mission is growth: growth for myself, growth for my colleagues and peers, and growth for the world. I want to inspire positive change within myself, and the world environmentally and socially. The world of Computer Science opens up a plethora of opportunites for me to make a genuine change in the world; I am so very excited to put my skills to work and create a better tommorow for everyone.</p>
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- Skills section -->
+  <div id="skills-target" class="target"></div>
+  <section id="skills-section">
+    <div id="skill-container" class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5 id="skill-title" class="display-5 text-center">Skills</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 text-center p-2">
+          <img src="img/skills/python.png" class="skill-logo p-2" alt="python logo">
+          <div class="container text-center txtbox p-2">
+            <p class="skills-text">
+              Programming to solve modern problems using Python
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center p-2">
+          <img src="img/skills/java.png" class="skill-logo p-2" alt="java logo">
+          <div class="container text-center txtbox p-2">
+            <p class="skills-text">
+              Creating efficient, functional code with Java
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center p-2">
+          <img src="img/skills/html.png" class="skill-logo p-2" alt="html logo">
+          <div class="container text-center txtbox p-2">
+            <p class="skills-text">
+              Laying out well designed websites using HTML
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center p-2">
+          <img src="img/skills/css.png" class="skill-logo p-2" alt="css logo">
+          <div class="container text-center txtbox p-2">
+            <p class="skills-text">
+              Designing beautiful and intricate websites using CSS and Bootstrap
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- Inspiration Section -->
+  <div id="inspiration-target" class="target"></div>
+  <section id="inspiration-section">
+    <h5 id="inspiration-title" class="display-5 p-2">Inspiration</h5>
+  	<div id="carouselExampleCaptions" class="carousel slide c-size text-center m-auto" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/inspiration/bernie.jpg" class="d-block w-100 h-100 c-image" alt="Bernie Sanders">
+          <div class="carousel-caption d-md-block carousel-txt-size">
+            <p>"To hold a vision that society can be fundamentally different, to believe that all people can be equal - that is not a new idea."<p>
+            <p>Bernie Sanders</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/inspiration/alexg.jpg" class="d-block w-100 h-100 c-image" alt="singer/musician Alex G">
+          <div class="carousel-caption d-md-block carousel-txt-size">
+            <p>"Every year I'm getting older, every day I feel the same."</p>
+            <p>Alex G</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/inspiration/jimcarrey.jpg" class="d-block w-100 h-100 c-image" alt="actor Jim Carrey">
+          <div class="carousel-caption d-md-block carousel-txt-size">
+            <p>“Your need for acceptance can make you invisible in this world ... Risk being seen in all of your glory.”</p>
+            <p>Jim Carrey</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <div id="contact-target" class="target"></div>
+  <section id="contact-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="display-5">Contact</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 p-4">
+          <a class="contact-link" href="https://www.linkedin.com/in/taegan-maishman-760299222/"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <a class="contact-link" href="https://github.com/Togonator"><i class="bi bi-github"></i></a>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <a class="contact-link" href="mailto: taegandm@gmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <p class="align-middle">&copy Taegan Maishman 2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
