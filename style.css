@@ -1,0 +1,131 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+body nav {
+  position: fixed;
+}
+
+.target {
+  position: relative;
+  top: -55px;
+}
+
+h5 {
+  font-style: bold;
+}
+
+#logo {
+  max-width: 23px;
+  min-width: 17px;
+  width: 4vw;
+  margin-left: 10px;
+}
+
+#hero-section {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url(img/header/watergap.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 85vh;
+  text-align: center;
+  color: white;
+}
+
+#headshot {
+  min-width: 100px;
+  max-width: 180px;
+  width: 20%;
+  margin-top: 8%;
+  border-radius: 50%;
+  border: 5px solid #606c38;
+}
+
+#hero-container {
+  padding-bottom: 50px;
+}
+
+#tagline {
+  margin-bottom: 25px;
+}
+
+#mission-container {
+  padding-bottom: 25px;
+}
+
+#mission-title {
+  margin-top: 10px;
+}
+
+#mission-image {
+  width: 100%;
+}
+
+#mission-paragraph {
+  font-size: clamp(1rem, 3vw, 1.1rem);
+}
+
+#skills-section {
+  background-color: #fefae0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#skill-container {
+  padding-bottom: 25px;
+}
+
+#skill-title {
+  margin-top: 10px;
+}
+
+.txtbox {
+  width: 200px;
+}
+
+.skill-logo {
+  max-height: 150px;
+  height: 35vh;
+}
+
+#inspiration-section {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.c-size {
+  max-width: 800px;
+  width: 70vw;
+}
+
+.carousel-txt-size {
+  font-size: 2.5vw;
+  text-shadow: 1px 1px rgb(0,0,0);
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+#contact-section {
+  background-color: #fefae0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contact-link {
+  color: black;
+  font-size: 20vw;
+  font-size: clamp(50px, 20vw, 100px);
+  transition-duration: .2s;
+}
+
+.contact-link:hover {
+  color: #606c38;
+}
+
+#footer-section {
+  margin-top: 15px;
+}
